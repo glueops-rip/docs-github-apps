@@ -21,4 +21,4 @@ For this example we will assume your GitHub organization is called `glueops-rock
 
 - `Authorization callback URL`: https://dex.nonprod.antoniostacos.glueopshosted.com/callback
 
-4. Save the Client ID and Client Secret
+4. Save the Client ID and Client Secret as it will be used in your `platform.yaml` underneath the `dex` section
