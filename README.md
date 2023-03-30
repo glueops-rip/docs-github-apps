@@ -14,8 +14,10 @@ For this example we will assume your GitHub organization is called `glueops-rock
 3. Let's create an the first app.
 
 - `Application name`: GlueOps-Dex
+  - This Application name can be whatever you want.
 
 - `Homepage URL`: https://dex.nonprod.antoniostacos.glueopshosted.com
+  
 
 - `Authorization callback URL`: https://dex.nonprod.antoniostacos.glueopshosted.com/callback
 
