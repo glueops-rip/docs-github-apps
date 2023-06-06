@@ -15,9 +15,9 @@ For this example we will assume your GitHub organization is called `glueops-rock
 
     - `Application name`: GlueOps-Dex _(This Application name can be whatever you want.)_
 
-    - `Homepage URL`: <https://dex.nonprod.antoniostacos.glueopshosted.com>
+    - `Homepage URL`: <https://dex.nonprod.antoniostacos.onglueops.com>
   
-    - `Authorization callback URL`: <https://dex.nonprod.antoniostacos.glueopshosted.com/callback>
+    - `Authorization callback URL`: <https://dex.nonprod.antoniostacos.onglueops.com/callback>
 
 4. Save the Client ID and Client Secret as it will be used in the deployment of the [terraform-module-cloud-multy-prerequisites](https://github.com/GlueOps/terraform-module-cloud-multy-prerequisites) module as the values for:
     - `github_oauth_app_client_id`
