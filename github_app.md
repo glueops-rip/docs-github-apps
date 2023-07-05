@@ -46,7 +46,7 @@ At the end of this process, the following values used to deploy [terraform-modul
       * Create a base64 encoded version of the key file, using
 
         ```sh
-        cat <downloaded-keyfile>.pem | base64 | tr -d '\n'
+        cat <downloaded-keyfile>.pem | base64 -w 0
         ```
 
 4. Install the application in the Tenant GitHub Organization.
