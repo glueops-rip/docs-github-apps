@@ -1,19 +1,19 @@
 # github-oauth-app
 
-This readme documents the process for creating GitHub OAuth apps for the deployment of the GlueOps Platform.  The OAuth app is used for Authentication into various services deployed on the Platform.
+This readme documents the process for creating GitHub OAuth apps for the deployment of the GlueOps Platform.  The OAuth app is used for Authentication into various services deployed on the Platform.  The OAuth app is installed in the organization managing the GlueOps platform, likely owned by GlueOps, and not the tenant's organization.
 
 ## Before you start
 
-For this example we will assume your GitHub organization is called `glueops-rocks`. You will need to update the URL's/links below accordingly to use your organization name in place of `glueops-rocks`. Secondly, we will assume your `captain_domain` is `nonprod.antoniostacos.glueopshosted.com`
+For this example, we will assume the management GitHub organization is called `glueops-rocks` and the tenant is `antoniostacos`. Update the URL's/links below accordingly to use the management organization name in place of `glueops-rocks`. Secondly, we will assume the `captain_domain`, provided by the GlueOps platform for tenant applications, is `nonprod.antoniostacos.glueopshosted.com`
 
-### Create the ArgoCD Application
+### Create the OAuth Application
 
 1. Go to: <https://github.com/organizations/glueops-rocks/settings/applications>
 
 2. Click on `New OAuth App`
 3. Let's create an the first app.
 
-    - `Application name`: GlueOps-Dex _(This Application name can be whatever you want.)_
+    - `Application name`: GlueOps-Dex _(This Application name can be, although referenceing the tenant is recommended.)_
 
     - `Homepage URL`: <https://dex.nonprod.antoniostacos.onglueops.com>
   
